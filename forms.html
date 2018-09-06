@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/default.css">
+</head>
+<body>
+	<nav id="nav"></nav>
+	<div class="container">
+		<h2>Forms</h2>
+		<!-- basic form -->
+			<form action="" method="">
+				<!-- textboxes -->
+				<label for="username">Username:&nbsp;</label>
+					<input type="text" name="username" required placeholder="johndoe123" id="username">
+				<br>
+				<label for="password">Password:&nbsp;&nbsp;</label>
+					<input type="password" name="password" required id="password">
+				<br>
+				<!-- radio buttons -->
+				<label for="radio-meal">Meal</label>
+					<input type="radio" name="meal" value="Breakfast">Breakfast
+					<input type="radio" name="meal" value="Lunch">Lunch
+					<input type="radio" name="meal" value="Dinner" checked>Dinner
+				<br>
+				<label for="checkbox">Check box</label>
+				<br>
+				<!-- checkboxes -->
+					<input type="checkbox" value="a" name="A" disabled>A</input>
+					<input type="checkbox" value="b" name="B">B</input>
+				<br>
+				<fieldset>
+				<!-- input for email with fieldset-->
+				<legend>Email</legend>
+				<label for="email">Email:</label>
+					<input type="email" value="" placeholder="john@doe.com"></input>
+				</fieldset>
+				<br>
+				<!-- input for numbers -->
+				<label for="number">Number:</label>
+					<input type="number" value="number" min="1" max="99"></input>	
+				<br>
+				<!-- dropdown list boxes -->
+				<select>
+					<option name="opiton1" value="1">1</option>
+					<option name="option2" value="2">2</option>
+					<option name="option3" value="3">3</option>
+					<option name="option4" value="4" selected="true">4</option>
+				</select>
+				<br>
+				<!-- file uploads -->
+				<input type="file" name="pic"></input>
+				<button type="submit">Go!</button>
+				
+			</form>
+
+	</div>
+</body>
+</html>

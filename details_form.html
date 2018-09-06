@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<title>Review</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/default.css">
+</head>
+<body>
+	<nav id="nav"></nav>
+	<div class="container">
+		<h2 align="center">Now, let's make a Review!</h2>
+		<form action="" method="">
+			<fieldset>
+				<legend>Your Details</legend>
+					<br>
+					<label>Full Name: &nbsp; &nbsp;<input type="text" name="full_name" required></input></label>
+					<br>
+					<br>
+					<label>Email: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="email" name="email" placeholder="john@doe.com"></input></label>
+					<br>
+					<br>
+			</fieldset>
+			<br>
+			<br>
+			<fieldset>
+				<legend>Your Review</legend>
+					<br>
+					<label>How did you hear about us? &nbsp;
+						<select>
+							<option name="facebook">Facebook</option>
+							<option name="google">Google</option>
+							<option name="friends">Friends</option>
+							<option name="ads">Ads</option>
+						</select>
+					</label>
+					<br>
+					<br>
+					<label>Would you like to visit again? &nbsp;
+					<br>
+						<input type="radio" value="y" name="visit">Yes!</input>
+						<input type="radio" value="n" name="visit">Nah...</input>
+						<input type="radio" value="m" name="visit">Maybe~</input>
+					</label>
+					<br>
+					<br>
+					<br>
+					<label>Do you have something to say?</label>
+					<br>
+					<sub>Max 600 characters</sub>
+					<br>
+					<textarea maxlength="600" wrap="true" cols="105" rows="10" placeholder="You got somethin' to say?"></textarea>
+					<br>
+					<br>
+					<input type="checkbox" checked name="email_updates"><em>Now, sign me up for those <strong>useful</strong> email updates!</em></input>
+					<br>
+					<br>
+					<input type="button" value="Submit review!"></input>
+			</fieldset>
+		</form>
+		<br>
+	</div>
+</body>
+</html>
